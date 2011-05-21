@@ -1,4 +1,3 @@
-#START:constructor
 class Dictionary  
   constructor: (@originalWordList, grid) ->
     @setGrid grid if grid?
