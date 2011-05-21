@@ -1,7 +1,7 @@
-{Dictionary} = require './Dictionary'
-{Grid} = require './Grid'
-{Player} = require './Player'
-{OWL2} = require './OWL2'
+{Dictionary} = require './Classes/Dictionary'
+{Grid} = require './Classes/Grid'
+{Player} = require './Classes/Player'
+{OWL2} = require './Utilities/OWL2'
 
 grid = dictionary = currPlayer = player1 = player2 = null
 
