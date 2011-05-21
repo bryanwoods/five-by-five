@@ -54,7 +54,7 @@ promptForTile2 = (x1, y1) ->
           console.log """
             #{currPlayer} formed the following #{newWords.length} word(s)
             #{newWords.join(', ')}
-            earning #{moveScore / newWords.length}x#{newWords.length} = #{moveScore} points
+            Earning #{moveScore / newWords.length} x #{newWords.length} = #{moveScore} points
           """
         console.log """
           #{currPlayer}'s score after #{currPlayer.moveCount} moves: #{currPlayer.score}
