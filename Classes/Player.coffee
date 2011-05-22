@@ -18,7 +18,7 @@ scoreMove = (dictionary, swapCoordinates) ->
   {moveScore, newWords}
 
 class Player
-  constructor: (@name, dictionary) ->
+  constructor: (@num, @name, dictionary) ->
     @setDictionary dictionary if dictionary?
 
   setDictionary: (@dictionary) ->
@@ -31,6 +31,9 @@ class Player
     result = scoreMove @dictionary, swapCoordinates
     @score += result.moveScore
     result
+
+  toJSON: ->
+    {@num, @name, @score}
 
   toString: ->
     @name ? 'Unnamed Player'
