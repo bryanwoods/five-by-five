@@ -5,7 +5,7 @@ CoffeeScript, which is currently in beta.
 
 Inside you will find a Scrabblish realtime multiplayer word game
 
-## Installation of Dependencies
+### Installation of Dependencies
 
 You'll need CoffeeScript, Connect, and Socket.io
 
