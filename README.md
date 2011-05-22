@@ -13,5 +13,9 @@ You'll need CoffeeScript, Connect, and Socket.io
 
 ### Usage
 
+Start up the server and invite a friend
+
     $ coffee server.coffee
 		=> Browse to http://localhost:3000 to play
+
+Forever alone? Play against yourself in two browser windows!
